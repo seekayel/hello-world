@@ -18,7 +18,7 @@ exports.generateURL = async (contentType) => {
 }
 
 exports.put = (req,res) => {
-  const url = exports.generateURL(req.get('content-type'))
+  const url = exports.generateURL(req.headers['content-type'])
   res.status = 307
   res.set('Location',url)
   res.json({url})
