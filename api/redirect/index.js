@@ -1,3 +1,3 @@
 exports.all = (req,res) => {
-  res.body = 'WOWOWOWOOWOWO /redirect/index.js' 
+  res.body = 'Boom /redirect/index.js' 
 }
