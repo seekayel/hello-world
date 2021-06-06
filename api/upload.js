@@ -1,6 +1,9 @@
 const { S3Client, PutObjectCommand} = require('@aws-sdk/client-s3')
 const { getSignedUrl } = require('@aws-sdk/s3-request-presigner')
 
+exports.get = (req,res) => {
+  res.body = 'We think you wanted to try a post'
+}
 
 exports.generateURL = async (contentType) => {
   // bucket='files-829947040538'
