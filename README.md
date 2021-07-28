@@ -1,6 +1,6 @@
 # Hello World
 
-The Cyclic Hello World Example App
+The Cyclic API Framework Hello World Example App
 
 ## Deploy
 
